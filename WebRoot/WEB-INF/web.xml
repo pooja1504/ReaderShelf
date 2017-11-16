@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Registration</servlet-name>
+    <servlet-class>com.cc.controller.Registration</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePassword</servlet-name>
+    <servlet-class>ChangePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostaBook</servlet-name>
+    <servlet-class>com.cc.controller.PostaBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.cc.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logindao</servlet-name>
+    <servlet-class>com.cc.Dao.Logindao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.cc.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Changepassword</servlet-name>
+    <servlet-class>com.cc.controller.Changepassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Editmydetails</servlet-name>
+    <servlet-class>com.cc.controller.Editmydetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Mydetails</servlet-name>
+    <servlet-class>com.cc.controller.Mydetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteBooks</servlet-name>
+    <servlet-class>com.cc.controller.DeleteBooks</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IntentReq</servlet-name>
+    <servlet-class>com.cc.controller.IntentReq</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendMail</servlet-name>
+    <servlet-class>com.cc.controller.SendMail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Suggestions</servlet-name>
+    <servlet-class>com.cc.controller.Suggestions</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageUpload</servlet-name>
+    <servlet-class>com.cc.controller.ImageUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Messages</servlet-name>
+    <servlet-class>com.cc.controller.Messages</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplyMessage</servlet-name>
+    <servlet-class>com.cc.controller.ReplyMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMessages</servlet-name>
+    <servlet-class>com.cc.controller.DeleteMessages</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteMessages</servlet-name>
+    <url-pattern>/servlet/DeleteMessages</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyMessage</servlet-name>
+    <url-pattern>/servlet/ReplyMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Messages</servlet-name>
+    <url-pattern>/servlet/Messages</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Registration</servlet-name>
+    <url-pattern>/servlet/Registration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageUpload</servlet-name>
+    <url-pattern>/servlet/ImageUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePassword</servlet-name>
+    <url-pattern>/servlet/ChangePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostaBook</servlet-name>
+    <url-pattern>/servlet/PostaBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logindao</servlet-name>
+    <url-pattern>/servlet/Logindao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlet/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Changepassword</servlet-name>
+    <url-pattern>/servlet/Changepassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Editmydetails</servlet-name>
+    <url-pattern>/servlet/Editmydetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Mydetails</servlet-name>
+    <url-pattern>/servlet/Mydetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBooks</servlet-name>
+    <url-pattern>/servlet/DeleteBooks</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IntentReq</servlet-name>
+    <url-pattern>/servlet/IntentReq</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendMail</servlet-name>
+    <url-pattern>/servlet/SendMail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Suggestions</servlet-name>
+    <url-pattern>/servlet/Suggestions</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <description>Location to store uploaded file</description>
+    <param-name>file-upload</param-name>
+    <param-value>
+          D:/temp work/ReadersShelf/WebRoot/images/
+     </param-value>
+  </context-param>
+</web-app>

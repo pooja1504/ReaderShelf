@@ -1,0 +1,126 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#page-wrapper {
+    position: inherit;
+    margin: 0 0 0 233px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 233px;
+    padding: 0 30px 100px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    border-left: 1px solid #e7e7e7;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(231, 231, 231);
+}
+#page-wrapper {
+    padding: 0 15px;
+    min-height:568px;
+    background-color: #fff;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-6 col-md-offset-3
+{
+position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.mtopten {
+    margin-top: 10px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: inherit;
+    line-height: 1;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pull-right {
+    float: right;
+}
+.quote_by {
+    font-size: 15px;
+}
+.quote {
+    margin-top: 55px;
+}
+.pull-right {
+    float: right;
+}
+.navbar-static-side {
+    z-index: 1;
+    position: absolute;
+    width: 233px;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+.header_color {
+    background: #F4F4F4;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(244, 244, 244);
+}
+.navbar {
+    position: relative;
+    z-index: 1000;
+    min-height: 120px;
+    border: 1px solid transparent;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a{
+	color:green;
+}
+.quote_main {
+    font-size: 25px;
+}
+.quote i {
+    color: rgba(128, 128, 128, 0.27);
+}

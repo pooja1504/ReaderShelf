@@ -1,0 +1,514 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: Comic Sans MS;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+#homebody {
+    min-height: 100%;
+    background: url('Background.jpg') no-repeat fixed;
+    background-image: url("Background.jpg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.nooverflow {
+    padding-right: 0px;
+    margin-right: 0px;
+    overflow-y: hidden;
+}
+body,html
+{
+	height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+.home_nav {
+    background: white;
+    width:1270px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: white;
+}
+.header_color {
+    background: #ffffff;
+}
+.navbar-right {
+    float: right;
+}
+.navbar-left {
+    float: left;
+}
+.navbar-default {
+    background-color: #ffffff;
+}
+.navbar {
+    
+    position:relative;
+    z-index: 1000;
+    min-height: 50px;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+    height:90px;
+}
+.container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.navbar-header {
+    float:left;
+}
+.header_color img {
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+img {
+    vertical-align: middle;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+header ul {
+    margin-right: 7px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.home_button {
+    text-decoration: none;
+    color: white;
+    background: #589340;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(88, 147, 64);
+    margin-top: 12px;
+    width:50px;
+    height:20px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    width:60px;
+    height:20px;
+}
+
+a {
+    color: #4C5353;
+    text-decoration: none;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: inherit;
+    line-height: 1;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.whitebtn {
+    background: white;
+    border: solid 1px green;
+    margin-top: 12px;
+    color: green;
+}
+.home_note {
+    margin-top: 30px;
+}
+
+.mtoptwe {
+    margin-top: 20px;
+}
+.col-md-8 .col-md-6
+{
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.headline {
+    color: white;
+    font: 1.9em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 1.9em;
+    line-height: normal;
+    font-family: Comic Sans MS;;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Comic Sans MS;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.searchbg {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(199, 193, 195, 0.388235);
+    
+}
+.form-group {
+    margin-bottom: 15px;   
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.twitter-typeahead {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.twitter-typeahead .tt-hint {
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.twitter-typeahead .tt-hint, .twitter-typeahead .tt-query {
+    margin-bottom: 0;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+.tt-hint, .twitter-typeahead {
+    width: 100%;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, figure, input, select, textarea {
+    margin: 0;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.input-group .form-control {
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-control {
+   display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border-top-color: rgb(204, 204, 204);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(204, 204, 204);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(204, 204, 204);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition-property: border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: initial, initial;
+}
+}
+
+.input-group-btn {
+    position: relative;
+    white-space: nowrap;    
+}
+.input-group-addon, .input-group-btn {
+    width: 5%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.input-group-btn:last-child,.btn {
+    margin-left: -1px;
+}
+.input-group-lg,.form-control, .input-group-lg,.input-group-addon, .input-group-lg,.input-group-btn,.btn {
+    height: 30px;
+    padding: 0px 8px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+.input-group-btn .btn {
+    position: relative;
+}
+.searchbtn_home {
+    padding: 8px 16px;
+    background: #589340;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(88, 147, 64);
+    border-color: #589340;
+    border-top-color: rgb(88, 147, 64);
+    border-right-color: rgb(88, 147, 64);
+    border-bottom-color: rgb(88, 147, 64);
+    border-left-color: rgb(88, 147, 64);
+    color: white;
+}
+ footer{
+    display: block;
+}
+.home_footer {
+    background: white;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: white;
+    margin-top: 14px;
+}
+#footer .navbar {
+    min-height: 45px;
+}
+#detail_footer ul, .mtopbottom {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#footer ul {
+    margin-right: 0.5%;
+}
+.navbar {
+    position: relative;
+    z-index: 1000;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+#footer_about {
+    margin-bottom: 0px;
+    padding-top: 12px;
+}
+.pull-left {
+    float: left;
+}
+
+#footer_about .shadow {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    font: 1em 'Comic Sans MS';
+}
+a {
+    color: #4C5353;
+    text-decoration: none;
+}
+
+#footer_about b {
+    color: rgb(7,5,5);
+}
+
+b, strong {
+    font-weight: 500;
+}
+.searchbtn_home {
+    padding: 8px 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    background: #589340;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(88, 147, 64);
+    border-color: #589340;
+    border-top-color: rgb(88, 147, 64);
+    border-right-color: rgb(88, 147, 64);
+    border-bottom-color: rgb(88, 147, 64);
+    border-left-color: rgb(88, 147, 64);
+    color: white;
+}
